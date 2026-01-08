@@ -1,0 +1,76 @@
+{
+  "prompts": {
+    "total_requests": 8,
+    "total_refusals": 0,
+    "total_response_length": 3189,
+    "format_compliance_count": 8,
+    "quality_scores": [
+      0.6,
+      0.6,
+      0.7,
+      0.6,
+      0.7999999999999999,
+      0.7999999999999999,
+      0.7,
+      0.7
+    ],
+    "average_response_length": 398.625,
+    "refusal_rate": 0.0,
+    "format_compliance_rate": 1.0,
+    "average_quality_score": 0.6875
+  },
+  "rag": {
+    "total_retrievals": 1,
+    "total_chunks_retrieved": 5,
+    "total_retrieval_latency": 0.415881872177124,
+    "confidence_scores": [
+      0.31684863567352295,
+      0.3100496530532837,
+      0.29903554916381836,
+      0.2951112985610962,
+      0.28600263595581055
+    ],
+    "source_diversity": [
+      4
+    ],
+    "average_chunks_retrieved": 5.0,
+    "average_retrieval_latency": 0.415881872177124,
+    "average_confidence_score": 0.30140955448150636,
+    "average_source_diversity": 4.0
+  },
+  "agents": {
+    "total_tasks": 8,
+    "completed_tasks": 8,
+    "total_steps": 55,
+    "tool_calls": {
+      "save_to_memory": 2,
+      "search_memory": 1
+    },
+    "tool_successes": {
+      "save_to_memory": 2,
+      "search_memory": 1
+    },
+    "errors": {},
+    "total_cost": 0.04286313891410827,
+    "task_completion_rate": 1.0,
+    "average_steps_to_completion": 6.875,
+    "average_cost_per_task": 0.005357892364263534,
+    "tool_success_rates": {
+      "save_to_memory": 1.0,
+      "search_memory": 1.0
+    }
+  },
+  "system": {
+    "total_requests": 8,
+    "successful_requests": 8,
+    "total_latency": 42.863138914108276,
+    "total_cost": 0.04286313891410827,
+    "errors": 0,
+    "start_time": "2026-01-08T19:06:00.184138",
+    "uptime_seconds": 506.78824,
+    "task_success_rate": 1.0,
+    "average_latency": 5.3578923642635345,
+    "average_cost_per_request": 0.005357892364263534,
+    "error_rate": 0.0
+  }
+}
